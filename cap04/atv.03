@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas Avançadas Cap. 4 Ativ. 3</title>
+</head>
+<body>
+  <h1>Guia de Referência Rápidas de Tecnologias Web</h1>
+
+  <section>
+    <h2>Seção 1: Roteiro de Estudos</h2>
+    <h3>Etapa 1: Fundamentos Básicos</h3>
+    <ol type="1">
+      <li>
+        Conceitos da Web
+        <ol type="a">
+          <li>História e evolução</li>
+          <li>Funcionamento do protocolo HTTP</li>
+        </ol>
+      </li>
+      <li>
+        Estruturação com HTML
+        <ol type="a">
+          <li>Tags semânticas</li>
+          <li>Formulários e tabelas</li>
+        </ol>
+      </li>
+      <li>
+        Estilização com CSS
+        <ol type="a">
+          <li>Seletores e especificidade</li>
+          <li>Flexbox e CSS Grid</li>
+        </ol>
+      </li>
+    </ol>
+
+    <p>Após dominar os conceitos básicos da Web, HTML e CSS, o estudante estará apto para avançar rumo às linguagens de programação e ferramentas avançadas.</p>
+
+    <h3>Etapa 2: Desenvolvimento Avançado</h3>
+    <ol type="1" start="4">
+      <li>
+        Programação JavaScript
+        <ol type="a">
+          <li>Sintaxe e estruturas de controlo</li>
+          <li>Manipulação do DOM</li>
+        </ol>
+      </li>
+      <li>
+        Consumo de APIs
+        <ol type="a">
+          <li>Fetch API e Async/Await</li>
+          <li>Tratamento de dados JSON</li>
+        </ol>
+      </li>
+      <li>
+        Frameworks e Ferramentas
+        <ol type="a">
+          <li>Controlo de versão com Git/GitHub</li>
+          <li>Introdução ao React</li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Seção 2: Ranking de Tecnologias</h2>
+    <ol reversed>
+      <li>
+        <strong>Node.js</strong>
+        <p>Permite a execução do JavaScript no lado do servidor, unificando a linguagem de desenvolvimento para todo o ecossistema web.</p>
+      </li>
+      <li>
+        <strong>Git</strong>
+        <p>Sistema essencial para o controlo de versões, trabalho em equipa e gestão de código-fonte de projetos de software.</p>
+      </li>
+      <li>
+        <strong>JavaScript</strong>
+        <p>A linguagem de programação fundamental para adicionar interatividade e dinamismo às páginas do browser.</p>
+      </li>
+      <li>
+        <strong>CSS</strong>
+        <p>Linguagem de folhas de estilo indispensável para definir o aspeto visual, layout e responsividade das aplicações web.</p>
+      </li>
+      <li>
+        <strong>HTML</strong>
+        <p>A tecnologia estrutural base de toda a Web, sem a qual os conteúdos não poderiam ser semanticamente organizados.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Seção 3: Glossário de Termos Técnicos</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language: Linguagem de marcação para estruturar conteúdos na Web.</dd>
+
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets: Linguagem utilizada para descrever a apresentação visual de documentos HTML.</dd>
+
+      <dt>JavaScript</dt>
+      <dt>JS</dt>
+      <dd>Linguagem de programação interpretada de alto nível amplamente empregada no desenvolvimento de páginas interativas.</dd>
+
+      <dt>URI</dt>
+      <dt>URL</dt>
+      <dd>Endereço de rede utilizado para identificar e localizar um recurso específico disponível na internet.</dd>
+
+      <dt>DOM</dt>
+      <dd>Document Object Model: Interface de programação para documentos HTML e XML.</dd>
+      <dd>Representação em árvore da estrutura de uma página web usada pelos browsers para renderizar o conteúdo.</dd>
+
+      <dt>API</dt>
+      <dd>Application Programming Interface: Conjunto de rotinas e padrões de programação para acesso a uma aplicação de software.</dd>
+      <dd>Ponto de comunicação e integração entre diferentes sistemas e serviços independentes na web.</dd>
+
+      <dt>HTTP</dt>
+      <dd>Hypertext Transfer Protocol: Protocolo de comunicação utilizado para a transferência de dados na World Wide Web.</dd>
+
+      <dt>DNS</dt>
+      <dd>Domain Name System: Sistema de nomes distribuído que converte nomes de domínio em endereços IP.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Seção 4: Mapa de Tecnologias</h2>
+    <ul>
+      <li>
+        Desenvolvimento Web
+        <ul>
+          <li>
+            Frontend
+            <ul>
+              <li>
+                Linguagens
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </li>
+              <li>
+                Frameworks
+                <ul>
+                  <li>React</li>
+                  <li>Vue.js</li>
+                  <li>Angular</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Backend
+            <ul>
+              <li>
+                Linguagens
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>Node.js</li>
+                </ul>
+              </li>
+              <li>
+                Bancos de Dados
+                <ul>
+                  <li>MySQL</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <p><a href="../index.html">Voltar à página principal</a></p>
+</body>
+</html>
