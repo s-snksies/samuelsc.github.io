@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos Multimídia Cap. 4 Ativ. 4</title>
+</head>
+<body>
+  <header>
+    <h1>Recursos Multimídia do Ambiente Virtual</h1>
+  </header>
+
+  <main>
+    <figure>
+      <video controls width="800" height="450" poster="poster-aula.jpg" preload="metadata">
+        <source src="videos/aula-html.mp4" type="video/mp4">
+        <source src="videos/aula-html.webm" type="video/webm">
+        <track kind="subtitles" src="legendas/aula-html.vtt" srclang="pt" label="Português" default>
+        <p>O seu navegador não suporta a reprodução deste vídeo. Descarregue o ficheiro em <a href="videos/aula-html.mp4">formato MP4</a>.</p>
+      </video>
+      <figcaption>Vídeo explicativo sobre a criação de estruturas HTML5. Fonte: Canal Educacional da Instituição.</figcaption>
+    </figure>
+
+    <figure>
+      <audio controls preload="metadata">
+        <source src="audios/podcast-ep1.mp3" type="audio/mpeg">
+        <source src="audios/podcast-ep1.ogg" type="audio/ogg">
+        <p>O seu navegador não suporta o elemento de áudio. Transfira o ficheiro <a href="audios/podcast-ep1.mp3">AQUI (MP3)</a>.</p>
+      </audio>
+      <figcaption>
+        Podcast Episódio 1: Introdução aos Padrões Web. Consulte a <a href="transcricao.html">Transcrição completa</a>.
+      </figcaption>
+    </figure>
+
+    <figure>
+      <iframe 
+        width="800" 
+        height="450" 
+        src="https://www.youtube-nocookie.com/embed/epDCj_ZFiXM" 
+        title="Curso de HTML5 e CSS3 - Curso em Vídeo" 
+        loading="lazy" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      <figcaption>Vídeo "Curso de HTML5 e CSS3", disponibilizado pelo canal Curso em Vídeo na plataforma YouTube.</figcaption>
+    </figure>
+
+    <figure>
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/banner-wide.jpg">
+        <img src="img/banner-mobile.jpg" alt="Ilustração sobre tecnologias de desenvolvimento web" width="400" height="300">
+      </picture>
+      <figcaption>Banner de destaque com adaptação de enquadramento (art direction) para ecrãs móveis e de computador.</figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Samuel Santos de Castro | Matrícula: 2026001 | Data: 06/10/2026</p>
+  </footer>
+
+  <p><a href="../index.html">Voltar à página principal</a></p>
+</body>
+</html>
